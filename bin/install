@@ -85,6 +85,7 @@ get_download_url_for_version() {
   case $(uname -m) in
     "x86_64") arch=x86_64 ;;
     "arm64")  arch=aarch64 ;;
+    "aarch64")  arch=aarch64 ;;
   esac
 
   echo "https://github.com/erlef/otp_builds/releases/download/${ref}/otp-${arch}-apple-darwin.tar.gz"
