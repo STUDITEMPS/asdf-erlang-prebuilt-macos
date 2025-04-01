@@ -6,5 +6,5 @@ Erlang plugin for [asdf](https://github.com/asdf-vm/asdf) version manager, using
 
 ```
 asdf plugin remove erlang
-asdf plugin add erlang https://github.com/michallepicki/asdf-erlang-prebuilt-macos.git
+asdf plugin add erlang https://github.com/STUDITEMPS/asdf-erlang-prebuilt-macos.git
 ```
